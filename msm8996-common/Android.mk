@@ -114,7 +114,7 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := TimeService
+LOCAL_MODULE := UEIQuicksetSDKLeTV
 LOCAL_MODULE_OWNER := leeco
 LOCAL_SRC_FILES := proprietary/vendor/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk
 LOCAL_CERTIFICATE := platform

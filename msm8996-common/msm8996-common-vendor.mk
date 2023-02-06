@@ -406,6 +406,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     shutdownlistener \
     TimeService \
+    UEIQuicksetSDKLeTV \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
@@ -421,6 +422,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/leeco/msm8996-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/UEISettings:system/vendor/etc/UEISettings \
     vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
